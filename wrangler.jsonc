@@ -1,0 +1,19 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "kv-get-started-dww",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-03-27",
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+		"binding": "BINDING_NAME",
+		"id": "2dc70bcdecc44d91905b517f71cf436b"
+		}
+	]
+}
